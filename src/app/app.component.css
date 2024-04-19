@@ -1,0 +1,48 @@
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  font-size: 1em;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.tabs a {
+  color: white;
+  text-decoration: none;
+}
